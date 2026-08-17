@@ -15,6 +15,7 @@ jobs:
       contents: read
       security-events: write
       pull-requests: read
+      actions: read
 
     steps:
       - name: Checkout
